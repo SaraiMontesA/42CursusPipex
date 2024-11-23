@@ -3,19 +3,25 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42.fr>            +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/06 10:37:42 by gcollet           #+#    #+#             */
-/*   Updated: 2022/02/06 10:00:40 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 14:23:28 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 14:24:08 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* La fonction memmove() copie n octets depuis la zone mémoire src vers la zone 
-mémoire dest. Les deux zones peuvent se chevaucher : la copie se passe comme 
-si les octets de src étaient d'abord copiés dans une zone temporaire qui ne 
-chevauche ni src ni dest, et les octets sont ensuite copiés de la zone 
-temporaire vers dest.  */
-/* La fonction memmove() renvoie un pointeur sur dest. */
+/* La función memmove() copia n bytes desde el área de memoria src hacia el área
+de memoria dest. Las dos áreas pueden superponerse: la copia se realiza como 
+si los bytes de src se copiaran primero en un área temporal que no se 
+superpone ni a src ni a dest, y luego los bytes se copian del área temporal 
+a dest.  */
+/* La función memmove() devuelve un puntero a dest. */
+
+/* The memmove() function copies n bytes from the memory area src to the memory 
+area dest. The two areas may overlap: the copy is performed as if the bytes 
+from src are first copied to a temporary area that does not overlap src or 
+dest, and the bytes are then copied from the temporary area to dest.  */
+/* The memmove() function returns a pointer to dest. */
 
 #include "libft.h"
 

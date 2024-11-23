@@ -3,12 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/07 13:31:38 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/11 14:40:33 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 14:42:51 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 14:43:20 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/* La función strlcpy() copia hasta size caracteres de la cadena 
+terminada en NUL src a dst, terminando el resultado con NUL. */
+/* Las funciones strlcpy() devuelven la longitud total de la cadena 
+que intentaron crear. Para strlcpy() eso significa la longitud de src. */
 
 /* The strlcpy() function copies up to size characters from the 
 NUL-terminated string src to dst, NUL-terminating the result. */

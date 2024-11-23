@@ -3,17 +3,22 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/07 11:06:54 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/11 14:23:26 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 14:37:28 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 14:38:24 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* La fonction strchr() renvoie un pointeur sur la première occurrence du 
-caractère c dans la chaîne s. */
-/* La fonction strchr() renvoie un pointeur sur le caractère correspondant, 
-ou NULL si le caractère n'a pas été trouvé. */
+/* La función strchr() devuelve un puntero a la primera ocurrencia del 
+carácter c en la cadena s. */
+/* La función strchr() devuelve un puntero al carácter correspondiente, 
+o NULL si el carácter no ha sido encontrado. */
+
+/* The strchr() function returns a pointer to the first occurrence of 
+the character c in the string s. */
+/* The strchr() function returns a pointer to the matching character, 
+or NULL if the character is not found. */
 
 #include "libft.h"
 

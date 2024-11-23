@@ -3,16 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstmap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/20 13:50:09 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/20 15:16:58 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 13:47:50 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 14:24:40 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* Itère sur la liste lst et applique la fonction f au contenu de chaque 
-élément. Crée une nouvelle liste résultant des applications successives de f. 
-La fonction del est la pour detruire le contenu d un element si necessaire */
+/* Itera sobre la lista lst y aplica la función f al contenido de cada 
+elemento. Crea una nueva lista resultante de las aplicaciones sucesivas de f. 
+La función del está para destruir el contenido de un elemento si es necesario.*/
+/* Iterates over the list lst and applies the function f to the content of each 
+element. Creates a new list resulting from the successive applications of f. 
+The del function is there to destroy the content of an element if necessary. */
 
 #include "libft.h"
 

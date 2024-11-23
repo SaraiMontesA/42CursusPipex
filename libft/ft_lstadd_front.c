@@ -1,16 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstadd_front.c                                  :+:      :+:    :+:   */
+/*   ft_lstadd_front                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/20 09:29:13 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/20 10:49:20 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 13:40:39 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 13:41:35 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* Ajoute l’élément ’new’ au début de la liste. */
+/* Añade el elemento 'new' al inicio de la lista. */
+/* Adds the element 'new' to the beginning of the list. */
 
 #include "libft.h"
 

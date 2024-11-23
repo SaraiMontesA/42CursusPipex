@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/11 11:17:23 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/13 15:59:39 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 14:29:16 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 14:29:34 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* Écrit la chaine de caractères ’s’ sur le file descriptor donné. */
+/* Escribe la cadena de caracteres 's' en el descriptor de archivo dado. */
+/* Writes the string 's' to the given file descriptor. */
 
 #include "libft.h"
 

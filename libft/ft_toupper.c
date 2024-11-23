@@ -3,16 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/07 10:50:12 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/07 11:03:34 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 14:51:33 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 14:51:50 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* toupper() convertit la lettre c en majuscule si c'est possible. */
-/* La valeur renvoyée est celle de la lettre convertie, ou bien c si la à
-conversion n'était pas possible. */
+/* toupper() convierte la letra c en mayúscula si es posible. */
+/* El valor devuelto es el de la letra convertida, o c si la 
+conversión no fue posible. */
+
+/* toupper() converts the letter c to uppercase if possible. */
+/* The return value is that of the converted letter, or c if the 
+conversion was not possible. */
 
 #include "libft.h"
 

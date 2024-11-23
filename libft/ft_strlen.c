@@ -3,16 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/06 14:39:40 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/06 15:00:37 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 14:43:47 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 14:44:18 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* La fonction strlen() calcule la longueur de la chaîne de caractères s, sans 
-compter l'octet nul « \0 » final. */
-/* La fonction strlen() renvoie le nombre de caractères dans la chaîne s. */
+/* La función strlen() calcula la longitud de la cadena de caracteres s, sin 
+contar el byte nulo « \0 » final. */
+/* La función strlen() devuelve el número de caracteres en la cadena s. */
+
+/* The strlen() function calculates the length of the string s, not 
+including the terminating null byte ('\0'). */
+/* The strlen() function returns the number of characters in the string s. */
 
 #include "libft.h"
 

@@ -3,16 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/10 11:42:29 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/13 13:20:08 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 14:39:54 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 14:40:14 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* Alloue (avec malloc) et retourne une nouvelle chaine, résultat de la 
-concaténation de s1 et s2. */
-/* La nouvelle chaine de caractères. NULL si l’allocation échoue. */
+/* Asigna (con malloc) y devuelve una nueva cadena, resultado de la 
+concatenación de s1 y s2. */
+/* La nueva cadena de caracteres. NULL si la asignación falla. */
+
+/* Allocates (with malloc) and returns a new string, which is the result of 
+the concatenation of s1 and s2. */
+/* The new string. NULL if the allocation fails. */
 
 #include "libft.h"
 

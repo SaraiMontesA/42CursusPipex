@@ -5,16 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/02 09:54:02 by gcollet           #+#    #+#             */
-/*   Updated: 2024/11/22 17:58:04 by sarmonte         ###   ########.fr       */
+/*   Created: 2024/11/23 12:44:01 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 13:31:25 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/pipex.h"
 
-/* Child process that run inside a fork, take the filein, put the output inside
- a pipe and then close with the exec function */
- /* Proceso hijo que se ejecuta dentro de un fork, toma el archivo de entrada,
+/* Proceso hijo que se ejecuta dentro de un fork, toma el archivo de entrada,
  coloca la salida dentro de una tubería y luego termina con la función exec */
 void	child_process(char **argv, char **envp, int *fd)
 {
@@ -29,9 +27,7 @@ void	child_process(char **argv, char **envp, int *fd)
 	execute(argv[2], envp);
 }
 
-/* Parent process that take the data from the pipe, change the output for the
- fileout and also close with the exec function */
- /* Proceso padre que toma los datos de la tubería, cambia la salida al archivo
+/* Proceso padre que toma los datos de la tubería, cambia la salida al archivo
  fileout y también termina con la función exec */
 void	parent_process(char **argv, char **envp, int *fd)
 {
@@ -46,9 +42,7 @@ void	parent_process(char **argv, char **envp, int *fd)
 	execute(argv[3], envp);
 }
 
-/* Main function that run the child and parent process or display an error
- message if arguments are wrong */
- /* Función principal que ejecuta el proceso hijo y el proceso padre o muestra
+/* Función principal que ejecuta el proceso hijo y el proceso padre o muestra
  un mensaje de error si los argumentos son incorrectos */
 int	main(int argc, char **argv, char **envp)
 {

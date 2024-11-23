@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstsize.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/20 10:10:24 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/20 10:50:27 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 13:51:07 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 13:51:23 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* Compte le nombre d’éléments de la liste. */
+/* Cuenta el número de elementos de la lista. */
+/* Counts the number of elements in the list. */
 
 #include "libft.h"
 

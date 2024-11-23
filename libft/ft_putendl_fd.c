@@ -3,15 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/11 11:44:55 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/13 16:00:14 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 14:27:11 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 14:27:48 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* Écrit La chaine de caractères ’s’ sur le file descriptor donné, suivie 
-d’un retour à la ligne. */
+/* Escribe la cadena de caracteres 's' en el descriptor de archivo dado, seguida
+de un salto de línea. */
+/* Writes the string 's' to the given file descriptor, followed by a newline. */
 
 #include "libft.h"
 

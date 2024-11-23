@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/06 16:04:28 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/12 10:09:29 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 13:35:58 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 13:36:21 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* Vérifie si l'on a un chiffre (0 à 9). */
-/* Les valeurs renvoyées sont non nulles si le caractère c entre dans la
-catégorie testée, et zéro sinon  */
+/* Verifica si tenemos un dígito (0 a 9). */
+/* Los valores devueltos son no nulos si el carácter c entra en la
+categoría probada, y cero en caso contrario. */
 
 #include "libft.h"
 

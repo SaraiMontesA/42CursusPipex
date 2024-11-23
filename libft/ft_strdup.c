@@ -3,19 +3,26 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/08 12:51:40 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/13 16:40:52 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 14:39:02 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 14:39:26 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* La fonction strdup() renvoie un pointeur sur une nouvelle chaîne de 
-caractères qui est dupliquée depuis s. La mémoire occupée par cette nouvelle 
-chaîne est obtenue en appelant malloc(), et peut (doit) donc être libérée avec
-free().*/
-/* La fonction strdup() renvoie un pointeur sur la chaîne dupliquée, ou NULL
-s'il n'y avait pas assez de mémoire.  */
+/* La función strdup() devuelve un puntero a una nueva cadena de 
+caracteres que es duplicada desde s. La memoria ocupada por esta nueva 
+cadena se obtiene llamando a malloc(), y puede (debe) ser liberada con 
+free(). */
+/* La función strdup() devuelve un puntero a la cadena duplicada, o NULL 
+si no había suficiente memoria. */
+
+/* The strdup() function returns a pointer to a new string 
+which is a duplicate of the string s. The memory occupied by this new 
+string is obtained by calling malloc(), and can (must) be freed with 
+free(). */
+/* The strdup() function returns a pointer to the duplicated string, or NULL 
+if there was insufficient memory. */
 
 #include "libft.h"
 

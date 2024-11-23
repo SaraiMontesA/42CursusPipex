@@ -3,20 +3,26 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/11 10:20:19 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/13 13:34:37 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 14:44:40 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 14:45:40 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+/* Aplica la función 'f' a cada carácter de la cadena de caracteres 
+pasada como argumento para crear una nueva cadena de caracteres (con malloc)
+resultante de las aplicaciones sucesivas de 'f'. */
+/* La cadena de caracteres resultante de las aplicaciones sucesivas de f.
+Devuelve NULL si la asignación falla. */
 
-/* Applique la fonction ’f’ à chaque caractère de la chaine de caractères 
-passée en argument pour créer une nouvelle chaine de caractères (avec malloc)
-résultant des applications successives de ’f’. */
-/* La chaine de caractères résultant des application ssuccessives de f. 
-Retourne NULL si l’allocation échoue. */
+/* Applies the function 'f' to each character of the string
+passed as an argument to create a new string (with malloc)
+resulting from successive applications of 'f'. */
+/* The string resulting from successive applications of f.
+Returns NULL if the allocation fails. */
+
+#include "libft.h"
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {

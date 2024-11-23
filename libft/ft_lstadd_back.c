@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_back.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/20 11:10:13 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/20 11:48:50 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 13:39:54 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 13:40:13 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* Ajoute l’élément new à la fin de la liste. */
+/* Añade el elemento new al final de la lista. */
 
 #include "libft.h"
 

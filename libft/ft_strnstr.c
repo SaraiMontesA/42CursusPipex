@@ -3,18 +3,25 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/08 11:17:09 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/11 13:33:00 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 14:47:09 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 14:47:31 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* The strnstr() function locates the first occurrence of the null-terminated
-string little in the string big, where not more than len character are 
+/* La función strnstr() localiza la primera ocurrencia de la cadena 
+terminada en null little en la cadena big, donde no se buscan más de len 
+caracteres. */
+/* Si little es una cadena vacía, se devuelve big; si little no aparece en 
+ninguna parte de big, se devuelve NULL; de lo contrario, se devuelve un 
+puntero al primer carácter de la primera ocurrencia de little. */
+
+/* The strnstr() function locates the first occurrence of the null-terminated 
+string little in the string big, where not more than len characters are 
 searched. */
-/* If	little is an empty string, big is returned; if little occurs nowhere in
-big, NULL is returned; otherwise a pointer to the first	character of the first
+/* If little is an empty string, big is returned; if little occurs nowhere in 
+big, NULL is returned; otherwise a pointer to the first character of the first 
 occurrence of little is returned. */
 
 #include "libft.h"

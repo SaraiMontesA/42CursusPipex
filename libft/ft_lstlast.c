@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstlast.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/20 10:48:37 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/20 11:07:54 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 13:46:45 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 13:47:07 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* Renvoie le dernier élément de la liste. */
+/* Devuelve el último elemento de la lista. */
+/* Returns the last element of the list. */
 
 #include "libft.h"
 

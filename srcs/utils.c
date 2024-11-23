@@ -5,15 +5,15 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/04 10:26:01 by gcollet           #+#    #+#             */
-/*   Updated: 2024/11/22 17:57:57 by sarmonte         ###   ########.fr       */
+/*   Created: 2024/11/23 12:44:56 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 13:30:28 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/pipex.h"
 
-/* Function that will look for the path line inside the environment, will
- split and test each command path and then return the right one. */
+/* Función que buscará la línea de la ruta dentro del entorno, 
+dividirá y probará cada ruta de comando y luego devolverá la correcta. */
 char	*find_path(char *cmd, char **envp)
 {
 	char	**paths;
@@ -55,13 +55,13 @@ void	error(void)
 void	execute(char *argv, char **envp)
 {
 	char	**cmd;
-	int 	i;
+	int		i;
 	char	*path;
-	
+
 	i = -1;
 	cmd = ft_split(argv, ' ');
 	path = find_path(cmd[0], envp);
-	if (!path)	
+	if (!path)
 	{
 		while (cmd[++i])
 			free(cmd[i]);

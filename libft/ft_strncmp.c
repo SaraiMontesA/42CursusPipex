@@ -3,19 +3,26 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/07 11:51:46 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/11 13:46:41 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 14:46:15 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 14:46:36 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* La fonction strcmp() compare les deux chaînes s1 et s2. Elle renvoie un 
-entier négatif, nul, ou positif, si s1 est respectivement inférieure, égale 
-ou supérieure à s2. */
-/* La fonction strncmp() renvoie un entier inférieur, égal ou supérieur à zéro
-si s1 (ou ses n premiers octets) est respectivement inférieure, égale ou 
-supérieure à s2. */
+/* La función strcmp() compara las dos cadenas s1 y s2. Devuelve un 
+entero negativo, cero o positivo, si s1 es respectivamente menor, igual 
+o mayor que s2. */
+/* La función strncmp() devuelve un entero menor, igual o mayor que cero 
+si s1 (o sus primeros n bytes) es respectivamente menor, igual o 
+mayor que s2. */
+
+/* The strcmp() function compares the two strings s1 and s2. It returns a 
+negative integer, zero, or a positive integer if s1 is respectively less than, 
+equal to, or greater than s2. */
+/* The strncmp() function returns an integer less than, equal to, or greater 
+than zero if s1 (or the first n bytes thereof) is found to be less than, 
+equal to, or greater than s2, respectively. */
 
 #include "libft.h"
 

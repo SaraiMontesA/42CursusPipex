@@ -3,19 +3,26 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/06 11:49:42 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/12 16:49:27 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 14:21:00 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 14:21:27 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* La fonction memcmp() compare les n premiers octets des zones mémoire s1 et
-s2. Elle renvoie un entier inférieur, égal, ou supérieur à zéro, si s1 est
-respectivement inférieure, égale ou supérieur à s2.  */
-/* La fonction memcmp() renvoie un entier négatif, nul ou positif si les n
-premiers octets de s1 sont respectivement inférieurs, égaux ou supérieurs aux n
-premiers octets de s2.   */
+/* La función memcmp() compara los primeros n bytes de las áreas de memoria s1 y
+s2. Devuelve un entero menor, igual o mayor que cero, si s1 es
+respectivamente menor, igual o mayor que s2.  */
+/* La función memcmp() devuelve un entero negativo, cero o positivo si los
+primeros n bytes de s1 son respectivamente menores, iguales o mayores que los
+primeros n bytes de s2.   */
+
+/* The memcmp() function compares the first n bytes of the memory areas s1 and
+s2. It returns an integer less than, equal to, or greater than zero if s1 is
+found, respectively, to be less than, to match, or be greater than s2.  */
+/* The memcmp() function returns a negative, zero, or positive integer if the
+first n bytes of s1 are respectively less than, equal to, or greater than the
+first n bytes of s2.   */
 
 #include "libft.h"
 

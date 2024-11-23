@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/10 17:26:08 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/13 15:57:51 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 13:38:19 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 13:38:49 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* Alloue (avec malloc) et retourne une chaine de caractères représentant 
-l’integer reçu en argument .Les nombres négatifs doivent être gérés. */
-/* La chaine de caractères représentant l’integer. NULL si l’allocation 
-échoue. */
+/* Asigna (con malloc) y devuelve una cadena de caracteres que representa 
+el entero recibido como argumento. Los números negativos deben ser manejados. */
+/* La cadena de caracteres que representa el entero. NULL si la asignación 
+falla. */
 
 #include "libft.h"
 

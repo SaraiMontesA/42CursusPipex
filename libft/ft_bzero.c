@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/05 15:00:08 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/08 12:41:53 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 13:19:28 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 13:20:48 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* La fonction bzero() met à 0 (octets contenant « \0 ») les n premiers octets
-du bloc pointé par s. */
-/* VALEUR RENVOYÉE : Aucune. */
+/* La función bzero() pone a 0 (octetos que contienen « \0 »)
+	los primeros n octetos del bloque apuntado por s. */
+/* VALOR DEVUELTO: Ninguno. */
 
 #include "libft.h"
 

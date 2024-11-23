@@ -5,15 +5,15 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/05 10:33:51 by gcollet           #+#    #+#             */
-/*   Updated: 2024/11/22 17:58:08 by sarmonte         ###   ########.fr       */
+/*   Created: 2024/11/23 12:43:06 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 13:31:44 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/pipex.h"
 
 /* Child process that create a fork and a pipe, put the output inside a pipe
- and then close with the exec function. The main process will change his stdin
+	and then close with the exec function. The main process will change his stdin
  for the pipe file descriptor. */
 void	child_process(char *argv, char **envp)
 {
@@ -40,7 +40,7 @@ void	child_process(char *argv, char **envp)
 }
 
 /* Function who make a child process that will read from the stdin with
- get_next_line until it find the limiter word and then put the output inside a
+	get_next_line until it find the limiter word and then put the output inside a
  pipe. The main process will change his stdin for the pipe file descriptor. */
 void	here_doc(char *limiter, int argc)
 {
@@ -72,7 +72,7 @@ void	here_doc(char *limiter, int argc)
 }
 
 /* Main function that run the childs process with the right file descriptor
- or display an error message if arguments are wrong. It will run here_doc
+	or display an error message if arguments are wrong. It will run here_doc
  function if the "here_doc" string is find in argv[1] */
 int	main(int argc, char **argv, char **envp)
 {

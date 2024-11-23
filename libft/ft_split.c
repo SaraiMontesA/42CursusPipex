@@ -3,18 +3,24 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/10 14:59:30 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/13 15:11:03 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 14:31:12 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 14:31:58 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* Alloue (avec malloc) et retourne un tableau de chaines de caracteres obtenu 
-en séparant ’s’ à l’aide du caractère ’c’, utilisé comme délimiteur. Le tableau
-doit être terminé par NULL. */
-/* Le tableau de nouvelles chaines de caractères, résultant du découpage. 
-NULL si l’allocation échoue. */
+/* Asigna (con malloc) y devuelve un arreglo de cadenas de caracteres obtenido 
+separando 's' usando el carácter 'c' como delimitador. El arreglo 
+debe terminar con NULL. */
+/* El arreglo de nuevas cadenas de caracteres, resultante de la separación. 
+NULL si la asignación falla. */
+
+/* Allocates (with malloc) and returns an array of strings obtained 
+by splitting 's' using the character 'c' as a delimiter. The array 
+must be terminated by NULL. */
+/* The array of new strings, resulting from the split. 
+NULL if the allocation fails. */
 
 #include "libft.h"
 

@@ -3,18 +3,24 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memccpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/06 10:03:50 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/11 13:52:27 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 13:52:22 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 13:53:14 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* La fonction memccpy() copie au plus n octets de la zone mémoire src vers 
-la zone mémoire dest, s'arrêtant dès qu'elle rencontre le caractère c. */
-/* La fonction memccpy() renvoie un pointeur sur le caractère immédiatement 
-après c dans la zone dest, ou NULL si c n'a pas été trouvé dans les n premiers 
-caractères de src.   */
+/* La función memccpy() copia como máximo n bytes del área de memoria src hacia 
+el área de memoria dest, deteniéndose tan pronto como encuentra el carácter c.*/
+/* La función memccpy() devuelve un puntero al carácter inmediatamente 
+después de c en el área dest, o NULL si c no se ha encontrado en los primeros 
+n caracteres de src. */
+
+/* The memccpy() function copies up to n bytes from the memory area src to 
+the memory area dest, stopping when the character c is found. */
+/* The memccpy() function returns a pointer to the character immediately 
+after c in the dest area, or NULL if c was not found in the first n characters 
+of src. */
 
 #include "libft.h"
 

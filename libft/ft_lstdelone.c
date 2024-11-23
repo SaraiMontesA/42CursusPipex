@@ -3,15 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstdelone.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/20 11:52:19 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/20 13:45:11 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 13:44:18 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 13:44:36 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* Libère la mémoire de l’élément passé en argument en utilisant la fonction 
-del puis avec free(3). La mémoire de next ne doit pas être free. */
+/* Libera la memoria del elemento pasado como argumento utilizando la función 
+del y luego con free(3). La memoria de next no debe ser liberada. */
+/* Frees the memory of the element passed as an argument using the function 
+del and then with free(3). The memory of next must not be freed. */
 
 #include "libft.h"
 

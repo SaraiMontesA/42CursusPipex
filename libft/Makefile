@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: gcollet <gcollet@student.42.fr>            +#+  +:+       +#+         #
+#    By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2021/05/11 12:58:26 by gcollet           #+#    #+#              #
-#    Updated: 2022/02/06 10:04:07 by gcollet          ###   ########.fr        #
+#    Created: 2024/11/23 14:52:22 by sarmonte          #+#    #+#              #
+#    Updated: 2024/11/23 14:52:28 by sarmonte         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 

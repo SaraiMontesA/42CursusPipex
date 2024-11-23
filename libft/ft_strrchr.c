@@ -3,17 +3,22 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/07 11:38:19 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/11 14:49:22 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 14:47:57 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 14:48:19 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* La fonction strrchr() renvoie un pointeur sur la dernière occurrence du 
-caractère c dans la chaîne s. */
-/* La fonction strrchr() renvoie un pointeur sur le caractère correspondant, 
-ou NULL si le caractère n'a pas été trouvé. */
+/* La función strrchr() devuelve un puntero a la última ocurrencia del 
+carácter c en la cadena s. */
+/* La función strrchr() devuelve un puntero al carácter correspondiente, 
+o NULL si el carácter no ha sido encontrado. */
+
+/* The strrchr() function returns a pointer to the last occurrence of 
+the character c in the string s. */
+/* The strrchr() function returns a pointer to the matching character, 
+or NULL if the character is not found. */
 
 #include "libft.h"
 

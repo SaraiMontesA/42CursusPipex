@@ -3,14 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstiter.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/20 13:40:10 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/20 15:04:34 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 13:45:16 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 13:46:12 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* Itère sur la list lst et applique la fonction f au contenu chaque élément. */
+/* Itera sobre la lista lst y aplica la función f al contenido de
+	cada elemento. */
+/* Iterates over the list lst and applies the function f to the content of
+	each element. */
 
 #include "libft.h"
 

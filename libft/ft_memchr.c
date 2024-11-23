@@ -3,18 +3,24 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/06 11:23:30 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/11 13:18:41 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 13:53:57 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 13:54:37 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* La fonction memchr() examine les n premiers octets de la zone mémoire 
-pointée par s à la recherche du caractère c. Le premier octet correspondant à c 
-(interprété comme un unsigned char) arrête l'opération. */
-/* La fonction memchr() renvoie un pointeur sur l'octet correspondant, ou NULL 
-si le caractère n'est pas présent dans la zone de mémoire concernée.   */
+/* La función memchr() examina los primeros n bytes del área de memoria 
+apuntada por s en busca del carácter c. El primer byte que corresponde a c 
+(interpretado como un unsigned char) detiene la operación. */
+/* La función memchr() devuelve un puntero al byte correspondiente, o NULL 
+si el carácter no está presente en el área de memoria en cuestión. */
+
+/* The memchr() function examines the first n bytes of the memory area 
+pointed to by s for the character c. The first byte that matches c 
+(interpreted as an unsigned char) stops the operation. */
+/* The memchr() function returns a pointer to the matching byte, or NULL 
+if the character is not found in the memory area. */
 
 #include "libft.h"
 

@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42quebec.com>     +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/11 11:51:46 by gcollet           #+#    #+#             */
-/*   Updated: 2021/05/11 11:59:00 by gcollet          ###   ########.fr       */
+/*   Created: 2024/11/23 14:28:33 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 14:28:49 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* Écrit l’integer ’n’ sur le file descriptor donné. */
+/* Escribe el entero 'n' en el descriptor de archivo dado. */
+/* Writes the integer 'n' to the given file descriptor. */
 
 #include "libft.h"
 

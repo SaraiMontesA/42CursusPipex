@@ -5,14 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/08 11:53:08 by gcollet           #+#    #+#             */
-/*   Updated: 2024/11/22 19:19:29 by sarmonte         ###   ########.fr       */
+/*   Created: 2024/11/23 13:07:13 by sarmonte          #+#    #+#             */
+/*   Updated: 2024/11/23 13:08:19 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* La fonction atoi() convertit le début de la chaîne pointée par nptr en 
-entier de type int . */
-/* VALEUR RENVOYÉE : Le résultat de la conversion.   */
+/* La función atoi() convierte el inicio de la cadena apuntada por nptr en 
+un entero de tipo int. */
+/* VALOR DEVUELTO: El resultado de la conversión. */
 
 #include "libft.h"
 
@@ -42,5 +42,3 @@ int	ft_atoi(const char *nptr)
 	}
 	return (num * sign);
 }
-
-
