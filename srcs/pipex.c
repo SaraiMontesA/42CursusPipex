@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   pipex.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/23 12:44:01 by sarmonte          #+#    #+#             */
-/*   Updated: 2024/11/23 13:31:25 by sarmonte         ###   ########.fr       */
+/*   Updated: 2024/11/25 18:54:15 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,3 +68,4 @@ int	main(int argc, char **argv, char **envp)
 	}
 	return (0);
 }
+

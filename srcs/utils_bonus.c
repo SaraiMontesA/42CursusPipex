@@ -1,18 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   utils_bonus                                        :+:      :+:    :+:   */
+/*   utils_bonus.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
+/*   By: sarmonte <sarmonte@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/23 12:45:48 by sarmonte          #+#    #+#             */
-/*   Updated: 2024/11/23 12:45:58 by sarmonte         ###   ########.fr       */
+/*   Updated: 2024/11/25 18:18:17 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 
 #include "../includes/pipex.h"
 
+/* Función para mostrar un mensaje de error cuando los argumentos son incorrectos */
 /* Function to display error message when arguments are wrong */
 void	usage(void)
 {
