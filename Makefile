@@ -6,7 +6,7 @@
 #    By: sarmonte <sarmonte@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/23 12:41:41 by sarmonte          #+#    #+#              #
-#    Updated: 2024/11/25 17:34:37 by sarmonte         ###   ########.fr        #
+#    Updated: 2024/11/25 17:47:09 by sarmonte         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,6 +24,8 @@ SRCS_B	= srcs/pipex_bonus.c srcs/utils.c srcs/utils_bonus.c
 OBJS_B	= ${SRCS_B:.c=.o}
 MAIN_B	= srcs/pipex_bonus.c
 
+# define una variable llamada HEADER que contiene la opción -Iincludes
+# indica al compilador que busque archivos de encabezado en el directorio includes
 HEADER	= -Iincludes
 
 # Definimos el compilador a utilizar
