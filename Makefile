@@ -10,6 +10,10 @@
 #                                                                              #
 # **************************************************************************** #
 
+# **************************************************************************** #
+# ***** Definición de variables ********************************************** #
+# **************************************************************************** #
+
 # Variables con nombre de los ejecutables, el principal y el de bonus
 PROG	= pipex
 PROG_B  = pipex_bonus
@@ -33,7 +37,11 @@ CC 		= gcc
 # Definimos las flags a utilizar
 CFLAGS 	= -Wall -Wextra -Werror -g
 
-# Define cómo convertir archivos .c en archivos .o utilizando gcc
+# **************************************************************************** #
+# ***** Definición de reglas ************************************************* #
+# **************************************************************************** #
+
+# Regla que define cómo convertir archivos .c en archivos .o utilizando gcc
 # con las opciones de compilación y los archivos de cabecera especificados
 .c.o:		%.o : %.c
 					@gcc ${CFLAGS} ${HEADER} -c $< -o $(<:.c=.o)
